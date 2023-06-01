@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume - Nishok Maharaaj R</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1,
+      h2 {
+        margin-bottom: 10px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+      .section {
+        margin-bottom: 15px;
+      }
+      .section-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .section-content {
+        margin-top: 5px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Nishok Maharaaj R</h1>
+    <h2>Full Stack Javascript Web Developer</h2>
+    <p>Email: nishokrt1905@gmail.com</p>
+    <p>Phone: 6369231507</p>
+    <p>Date of Birth: 19/05/2001</p>
+    <p>
+      <a href="https://www.linkedin.com/in/nishok-maharaaj-835867196"
+        >LinkedIn</a
+      >
+      |
+      <a href="https://github.com/nishok19">GitHub</a>
+    </p>
+
+    <div class="section">
+      <h2 class="section-title">PROFILE</h2>
+      <p class="section-content">
+        As a self-motivated and adaptable Full Stack Web Developer, I am
+        constantly seeking to learn new technologies and programming languages
+        to stay ahead of the curve and create dynamic and modern web
+        applications. My technical skills include proficiency in HTML, CSS,
+        JavaScript, React, Angular, Node.js, Express and MySQL/MongoDB. I am
+        also knowledgeable in Git, AWS, and other popular web development tools
+        and platforms.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">SKILLS</h2>
+      <ul class="section-content">
+        <li>Javascript</li>
+        <li>Next Js</li>
+        <li>React Js</li>
+        <li>Express Js</li>
+        <li>Node Js</li>
+        <li>MongoDB</li>
+        <li>SQL</li>
+        <li>Zustand</li>
+        <li>Redux Toolkit</li>
+        <li>AWS</li>
+        <li>GIT</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">PROJECTS</h2>
+      <div class="section-content">
+        <h3>Title: E-Commerce Application</h3>
+        <p><strong>MERN Stack</strong></p>
+        <p>
+          <strong>Objective:</strong> To build a user-friendly and easy to use
+          web application that has admin and user login for a feature rich
+          E-Commerce application.
+        </p>
+        <p>
+          <strong>Description:</strong> A E-Commerce web application using
+          React.js, Express.js, MongoDB and Redux provides an intuitive,
+          customizable, and scalable solution for purchasing products. It also
+          includes admin features such as admin product addition, updation and
+          deletion.
+        </p>
+        <p>
+          <strong>Tools:</strong> React Js, Express Js, MongoDB, GIT, VS Code,
+          Redux-toolkit
+        </p>
+        <p>
+          <strong>Outcome:</strong> Web application with a rich feature set of
+          an e-commerce site such as cart, payment, and admin functionality.
+        </p>
+
+        <h3>Title: Task Manager Application</h3>
+        <p><strong>MERN stack</strong></p>
+        <p>
+          <strong>Objective:</strong> To build an easy to use web application
+          that streamlines the workspace and increases productivity for
+          individuals and even a team.
+        </p>
+        <p>
+          <strong>Description:</strong> A task managing web application using
+          React.js, Express.js, and MongoDB provides an intuitive, customizable,
+          and scalable solution for managing tasks and projects. It includes
+          features such as task creation and management, deadline setting,
+          collaboration, and task assignment, making it suitable for businesses
+          of all sizes.
+        </p>
+        <p>
+          <strong>Tools:</strong> React Js, Express Js, MongoDB, GIT, VS Code,
+          Zustand
+        </p>
+        <p>
+          <strong>Outcome:</strong> Web application with features to add,
+          update, and delete tasks and manage them based on date, search
+          functionality.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+      <div class="section-content">
+        <p><strong>Automation Tester</strong></p>
+        <p>10/2021 – present</p>
+        <p>Cognizant Technology Solutions</p>
+        <ul>
+          <li>
+            Developed and maintained automated test frameworks using Test
+            Complete in JavaScript to ensure the quality and reliability of the
+            ERP application (Deltek Macanomy).
+          </li>
+          <li>
+            Conducted functional, integration, and regression tests on a daily
+            basis, analyzing results and providing feedback to the team for
+            continuous improvement.
+          </li>
+          <li>
+            Conducted root cause analysis and reported defects using Jira,
+            working with the development team to ensure timely resolution.
+          </li>
+          <li>
+            Improved test efficiency and effectiveness by implementing excel
+            data verification, resulting in a 40% reduction in time.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">EDUCATION</h2>
+      <div class="section-content">
+        <p><strong>B.Sc Computer Science</strong></p>
+        <p>06/2018 – 05/2021</p>
+        <p>Dwaraka Doss Goverdhan Doss Vaishnav College</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">LANGUAGES</h2>
+      <ul class="section-content">
+        <li>English</li>
+        <li>Tamil</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">INTERESTS</h2>
+      <p class="section-content">Cloud | Networking | AI/ML | Hardware</p>
+    </div>
+  </body>
+</html>

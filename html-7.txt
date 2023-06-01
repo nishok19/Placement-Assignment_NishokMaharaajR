@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Simple Music Player</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 50px;
+    }
+
+    .player {
+      margin: 50px auto;
+      width: 300px;
+    }
+
+    audio {
+      width: 100%;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .controls button {
+      margin: 0 5px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Simple Music Player</h1>
+
+  <div class="player">
+    <audio id="music" controls>
+      <source src="path/to/your/music.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="controls">
+      <button onclick="playMusic()">Play</button>
+      <button onclick="pauseMusic()">Pause</button>
+    </div>
+  </div>
+
+  <script>
+    var music = document.getElementById('music');
+
+    function playMusic() {
+      music.play();
+    }
+
+    function pauseMusic() {
+      music.pause();
+    }
+  </script>
+</body>
+
+</html>
